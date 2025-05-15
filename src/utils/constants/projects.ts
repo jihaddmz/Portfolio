@@ -36,7 +36,7 @@ export const PROJECTS = [
   {
     title: 'OneAppUrl',
     description: 'A website for mobile developers to share one url that redirects users to their specific app store',
-    image: '/src/assets/images/oneappurl_image.png',
+    image: '/oneappurl_image.png',
     technologies: ['React.js', 'Typescript', 'Redux', 'Taildwindcss', 'Spring Boot', 'Java', 'MongoDB', 'Docker', 'Github Actions'],
     icon: Link,
     link: 'https://oneappurl.netlify.app/'
@@ -44,7 +44,7 @@ export const PROJECTS = [
   {
     title: 'MovieFinder',
     description: 'A website for users to discover and search for movies to watch',
-    image: '/src/assets/images/moviefinder_image.png',
+    image: '/moviefinder_image.png',
     technologies: ['React.js', 'Typescript', 'Redux', 'Taildwindcss', 'Spring Boot', 'Java', 'MySql', 'Docker', "AWS", 'Github Actions'],
     icon: Film,
     link: 'https://jz-moviefinder.netlify.app/'
