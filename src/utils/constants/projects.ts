@@ -1,29 +1,53 @@
-import { Smartphone, Bot, BadgeDollarSign, ShoppingBag, Store, MessageCircleMore, FileJson } from 'lucide-react';
+import {Smartphone, Briefcase, BadgeDollarSign, ShoppingBag, Link, FileJson, Film} from 'lucide-react';
 
 export const PROJECTS = [
   {
     title: 'AlloDolar',
     description: 'A mobile app, that lets users to charge credits/dolars for their phones',
-    image: 'https://lh3.googleusercontent.com/XLpaVbUpXODc001nE3lIirGfjfghoURjOe50GCA0BkOLlV5n9HH2XI3WW7bDeJRQxRLE',
+    image: 'https://play-lh.googleusercontent.com/2e9G4miT5fXYukJQamaQc5eMMm5aMSoemUdIuafUSPYahnAHFaJvmg56Nm9PUYcB7nw8=w5120-h2880-rw',
     technologies: ['Flutter', 'Dart', 'Sqlite', 'Firebase', 'OneSignal'],
     icon: BadgeDollarSign,
-    link: 'https://onelink.to/72qq96'
+    link: 'https://oneappurl.onrender.com/u/3O2HBIDBI0'
   },
   {
-    title: 'Draftogo',
-    description: 'A mobile app in which you can generate various text content and images from just a simple input/prompt.',
-    image: 'https://lh3.googleusercontent.com/1VmPtp7IbZPLvmzBo4bFW8EXYI-m6EYB7tfbUXQtYZAk_L2li-dxKh1xBVCD5SmLloVg',
-    technologies: ['Kotlin, Jetpack Compose', 'Firebase', 'ChatGpt Api', 'Dall-E Api', 'SqliteDatabase'],
-    icon: Bot,
-    link: 'https://github.com/jihaddmz/AI-Writer-Android'
+    title: 'ClinicSync',
+    description: 'A mobile app for doctors and clinics to manage their work paperless',
+    image: 'https://play-lh.googleusercontent.com/O7IPq_2oWmkn0-lhSftYztoefPmTmqUcuHDApJvgQRTxPWn_0J-Ng8F3UC_eX0-vcQ=w5120-h2880-rw',
+    technologies: ['Flutter', 'Dart', 'Firebase', 'Sqlite'],
+    icon: Briefcase,
+    link: 'https://oneappurl.onrender.com/u/2OGXX1PD2Q'
   },
   {
     title: 'Applicx',
     description: 'A mobile app for phone stores that makes them able to charge their customer\'s phone (credits, line validity, & services)',
-    image: 'https://lh3.googleusercontent.com/W-HAX8SPDXLC40N7IlD3KYNVouzeF8cO9EcUKMmo-9yqzBp66sQOy3L-6YBGtIzu8Yc',
+    image: 'https://play-lh.googleusercontent.com/31tkyU-Xv5VT95tWbHzeHa8UcDY498L6dE5s_jH2lQGDoTJwLkBsUrtb2Mb2FNQuJg=w5120-h2880-rw',
     technologies: ['Flutter', 'Dart', 'Sqlite', 'Firebase', 'OneSignal'],
     icon: Smartphone,
-    link: 'https://onelink.to/hdr4gn'
+    link: 'https://oneappurl.onrender.com/u/JDDYWMUGLV'
+  },
+  {
+    title: 'WatchIQ',
+    description: 'A mobile app that simplifies the dilemma (what movies to watch!)',
+    image: 'https://play-lh.googleusercontent.com/coe8D_xpzqv7PvPdHgXIx3O0Zy6BCiH0HgErnYxC2kTYYJnB-3vfu7A5L4Nb7IeDfVY=w5120-h2880-rw',
+    technologies: ['React Native', 'Expo', 'Typescript', 'Redux', 'NativeWind', 'AppWrite'],
+    icon: Film,
+    link: 'https://play.google.com/store/apps/details?id=com.jihaddmz.watchiq&hl=en'
+  },
+  {
+    title: 'OneAppUrl',
+    description: 'A website for mobile developers to share one url that redirects users to their specific app store',
+    image: '/src/assets/images/oneappurl_image.png',
+    technologies: ['React.js', 'Typescript', 'Redux', 'Taildwindcss', 'Spring Boot', 'Java', 'MongoDB', 'Docker', 'Github Actions'],
+    icon: Link,
+    link: 'https://oneappurl.netlify.app/'
+  },
+  {
+    title: 'MovieFinder',
+    description: 'A website for users to discover and search for movies to watch',
+    image: '/src/assets/images/moviefinder_image.png',
+    technologies: ['React.js', 'Typescript', 'Redux', 'Taildwindcss', 'Spring Boot', 'Java', 'MySql', 'Docker', "AWS", 'Github Actions'],
+    icon: Film,
+    link: 'https://jz-moviefinder.netlify.app/'
   },
   {
     title: 'iStore',
@@ -32,22 +56,6 @@ export const PROJECTS = [
     technologies: ['React', 'Typescript', 'Threejs', 'Supabase'],
     icon: ShoppingBag,
     link: 'https://ipstore.netlify.app/'
-  },
-  {
-    title: 'Maya\'s Handmade',
-    description: 'A website for a business that sells crochet handmade products',
-    image: 'https://github.com/user-attachments/assets/922fd9a1-4304-4287-bfd2-ce1b6a6696b3',
-    technologies: ['React', 'Typescript', 'Supabase'],
-    icon: Store,
-    link: 'https://mayashandmade.netlify.app/'
-  },
-  {
-    title: 'Avatech',
-    description: 'A website for a business that sells interactive AI Avatar Chatbots',
-    image: 'https://github.com/user-attachments/assets/dd8c7f23-a269-43a7-83f6-06307ab1153e',
-    technologies: ['React', 'Typescript', 'Supabase'],
-    icon: MessageCircleMore,
-    link: 'https://avatech.site/'
   },
   {
     title: 'Online CV',

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { techBadgeVariants } from '../../utils/animations/projectAnimations';
 
@@ -15,7 +14,7 @@ export default function TechBadge({ tech, index }: TechBadgeProps) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="px-3 py-1 text-sm bg-violet-500/20 text-violet-400 rounded-full"
+      className="px-3 py-1 text-sm bg-violet-500/70 text-violet-200 rounded-full"
     >
       {tech}
     </motion.span>
