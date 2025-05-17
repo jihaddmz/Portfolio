@@ -12,7 +12,7 @@ export const PROJECTS = [
   {
     title: 'ClinicSync',
     description: 'A mobile app for doctors and clinics to manage their work paperless',
-    image: 'https://play-lh.googleusercontent.com/O7IPq_2oWmkn0-lhSftYztoefPmTmqUcuHDApJvgQRTxPWn_0J-Ng8F3UC_eX0-vcQ=w5120-h2880-rw',
+    image: '/clinicsync_image.png',
     technologies: ['Flutter', 'Dart', 'Firebase', 'Sqlite'],
     icon: Briefcase,
     link: 'https://oneappurl.onrender.com/u/2OGXX1PD2Q'
