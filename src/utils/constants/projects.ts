@@ -7,7 +7,7 @@ export const PROJECTS = [
     image: 'https://play-lh.googleusercontent.com/2e9G4miT5fXYukJQamaQc5eMMm5aMSoemUdIuafUSPYahnAHFaJvmg56Nm9PUYcB7nw8=w5120-h2880-rw',
     technologies: ['Flutter', 'Dart', 'Sqlite', 'Firebase', 'OneSignal'],
     icon: BadgeDollarSign,
-    link: 'https://oneappurl.onrender.com/u/3O2HBIDBI0'
+    link: 'https://github.com/jihaddmz/lebussd'
   },
   {
     title: 'ClinicSync',
@@ -15,7 +15,7 @@ export const PROJECTS = [
     image: '/clinicsync_image.png',
     technologies: ['Flutter', 'Dart', 'Firebase', 'Sqlite'],
     icon: Briefcase,
-    link: 'https://oneappurl.onrender.com/u/2OGXX1PD2Q'
+    link: 'https://github.com/jihaddmz/clinicsync'
   },
   {
     title: 'Applicx',
@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: 'https://play-lh.googleusercontent.com/31tkyU-Xv5VT95tWbHzeHa8UcDY498L6dE5s_jH2lQGDoTJwLkBsUrtb2Mb2FNQuJg=w5120-h2880-rw',
     technologies: ['Flutter', 'Dart', 'Sqlite', 'Firebase', 'OneSignal'],
     icon: Smartphone,
-    link: 'https://oneappurl.onrender.com/u/JDDYWMUGLV'
+    link: 'https://github.com/jihaddmz/Applicx'
   },
   {
     title: 'WatchIQ',
@@ -31,7 +31,7 @@ export const PROJECTS = [
     image: 'https://play-lh.googleusercontent.com/coe8D_xpzqv7PvPdHgXIx3O0Zy6BCiH0HgErnYxC2kTYYJnB-3vfu7A5L4Nb7IeDfVY=w5120-h2880-rw',
     technologies: ['React Native', 'Expo', 'Typescript', 'Redux', 'NativeWind', 'AppWrite'],
     icon: Film,
-    link: 'https://play.google.com/store/apps/details?id=com.jihaddmz.watchiq&hl=en'
+    link: 'https://github.com/jihaddmz/WatchIQ'
   },
   {
     title: 'OneAppUrl',
