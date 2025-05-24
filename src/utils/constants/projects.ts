@@ -1,4 +1,4 @@
-import {Smartphone, Briefcase, BadgeDollarSign, ShoppingBag, Link, FileJson, Film} from 'lucide-react';
+import {Smartphone, Briefcase, BadgeDollarSign, Link, FileJson, Film} from 'lucide-react';
 
 export const PROJECTS = [
   {
@@ -48,14 +48,6 @@ export const PROJECTS = [
     technologies: ['React.js', 'Typescript', 'Redux', 'Taildwindcss', 'Spring Boot', 'Java', 'MySql', 'Docker', "AWS", 'Github Actions'],
     icon: Film,
     link: 'https://jz-moviefinder.netlify.app/'
-  },
-  {
-    title: 'iStore',
-    description: 'A demo website for an ecommerce iphone store',
-    image: 'https://github.com/user-attachments/assets/c48b220b-c604-47bf-bcd4-b8eb98beb762',
-    technologies: ['React', 'Typescript', 'Threejs', 'Supabase'],
-    icon: ShoppingBag,
-    link: 'https://ipstore.netlify.app/'
   },
   {
     title: 'Online CV',
